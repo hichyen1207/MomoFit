@@ -136,4 +136,7 @@ cloudinary.config(
   cloud_name = "drnlrxuje", 
   api_key = "591415155589157", 
   api_secret = "m_tvcbcWOD9soAIbHQf-00Dol58" 
-)
+
+if os.getenv('DATABASE_URL') is not None:
+    import dj_database_url
+    DATABASES['default'] = dj_database_url.config()
