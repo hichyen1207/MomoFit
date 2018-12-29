@@ -26,7 +26,7 @@ SECRET_KEY = 'ch$+6sfi5*ihr26kx^^!q)zgs!1)e7a=b^x@la1dv5%jx5volw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['momofit.herokuapp.com']
 
 
 # Application definition
